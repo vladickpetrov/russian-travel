@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+    .footer__menu-item-shield {
+        padding-bottom: 32px;
+        padding-right: 0;
+    }
+
+    .footer__menu-item-shield:last-child {
+        padding-bottom: 48px;
+    }
+}

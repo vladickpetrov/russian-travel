@@ -1,0 +1,17 @@
+.lead__train-lady-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+}
+
+@media screen and (max-width: 984px) {
+    .lead__train-lady-container{
+        width: 97vw;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .lead__train-lady-container{
+        max-width: 928px;
+    }
+}
