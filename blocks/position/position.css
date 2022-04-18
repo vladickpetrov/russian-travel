@@ -2,14 +2,6 @@
     padding-bottom: 92px;
 }
 
-.position:last-child {
-    padding-bottom: 0;
-}
-
-.position:first-child {
-    padding-bottom: 0;
-}
-
 @media screen and (max-width: 768px) {
     .position {
         padding-bottom: 88px;
@@ -17,7 +9,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
     .position {
         padding-bottom: 64px;
     }

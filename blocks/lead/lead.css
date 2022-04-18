@@ -7,12 +7,6 @@
 }
 
 @media screen and (max-width: 1090px) {
-    .place__grid {
-        gap: 48px 32px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .lead {
         padding-top: 48px;
     }

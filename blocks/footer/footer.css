@@ -1,6 +1,7 @@
 .footer {
     padding-right: 48px;
     padding-left: 48px;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
