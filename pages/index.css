@@ -4,6 +4,8 @@
 .page {
     background-color: #2A2C2F;
     font-family: Inter;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     color: hsl(0, 0%, 100%);
 }
 
@@ -85,12 +87,12 @@
 .lead__train-lady-container{
     display: flex;
     flex-direction: column;
-    max-width: 984px;
+    max-width: 950px;
 }
 
 .lead__caption {
     margin: 0;
-    margin-right: auto;
+    align-self: flex-start;
     padding-top: 8px;
     font-size: 10px;
     font-weight: 400;
@@ -344,7 +346,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
     .place__grid {
         gap: 48px 32px;
     }
@@ -352,11 +354,6 @@
     .lead {
         padding-top: 48px;
     }
-
-    .lead__train-lady-container{
-        max-width: 928px;
-    }
-
     .intro {
         padding-left: calc((100% - 928px)/2);
     }
@@ -391,7 +388,7 @@
     }
 
     .lead__train-lady-container{
-        width: 100vw;
+        width: 97vw;
     }
 
     .intro {
@@ -400,11 +397,19 @@
         padding-left: 24px;
         padding-right: 24px;
     }
+
+    .place__grid {
+        max-width: 720px;
+    }
 }
 
 @media screen and (max-width: 928px) {
     .lead__caption {
         padding-left: 24px;
+    }
+
+    .lead__train-lady-container{
+        max-width: 928px;
     }
 }
 
@@ -422,10 +427,6 @@
     }
     .lead {
         padding-top: 48px;
-    }
-
-    .place__grid {
-        max-width: 720px;
     }
 
     .place__grid {
@@ -504,12 +505,12 @@
     .cover__title {
         padding-bottom: 16px;
         font-size: 32px;
-        max-width: 288px;
+        max-width: 255px;
     }
     
     .cover__subtitle {
         font-size: 14px;
-        max-width: 288px;
+        max-width: 255px;
     }
 
     .footer {
