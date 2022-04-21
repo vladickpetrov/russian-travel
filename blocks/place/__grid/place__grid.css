@@ -3,7 +3,6 @@
     padding-bottom: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4);
     gap: 48px 40px;
 }
 
@@ -31,22 +30,16 @@
 
 @media screen and (max-width: 768px) {
     .place__grid {
+        padding-bottom: 73px;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .place__grid {
-        padding-bottom: 73px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .place__grid {
-        max-width: 288px;
+        max-width: 320px;
         padding-bottom: 50px;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4);
         gap: 32px;
     }
 }

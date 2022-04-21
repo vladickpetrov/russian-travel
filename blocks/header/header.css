@@ -3,9 +3,17 @@
     padding-left: 48px;
     padding-right: 48px;
     padding-bottom: 0;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 1280px) {
+    .header {
+        max-width: 1280px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .header {
@@ -14,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .header {
         padding-top: 16px;
         padding-left: 16px;

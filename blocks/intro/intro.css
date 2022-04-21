@@ -4,12 +4,6 @@
     padding-left: calc((100% - 984px)/2);
 }
 
-@media screen and (max-width: 320px) {
-    .intro {
-        max-width: 288px;
-    }
-}
-
 @media screen and (max-width: 1090px) {
     .intro {
         padding-left: calc((100% - 928px)/2);
@@ -18,9 +12,16 @@
 
 @media screen and (max-width: 984px) {
     .intro {
-        margin: 0;
         max-width: 690px;
         padding-left: 24px;
         padding-right: 24px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
