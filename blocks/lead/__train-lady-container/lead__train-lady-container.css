@@ -1,4 +1,5 @@
 .lead__train-lady-container{
+    margin: 0;
     display: flex;
     flex-direction: column;
     max-width: 984px;
